@@ -1,0 +1,6 @@
+- When a page has been used recently and is being refered over and over, such action INCREASES the hit rate of the program. 
+        Exp: Consider the following case ' 1 1 1 1 ' , we will access one page each time, the miss occur only in the startand those pages which are not used recently will be removed.
+
+
+- When different pages are accessed and then again we try to access an old page ( that would have been removed because of no recent usage ), such action DECREASES the hit rate.
+        Exp: Consider we have 5 pages, then in the following case the hit rate will decrease ' 1 2 3 4 5 6 1 '.
